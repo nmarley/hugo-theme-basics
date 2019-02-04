@@ -1,21 +1,20 @@
 # theme.toml template for a Hugo theme
 # See https://github.com/gohugoio/hugoThemes#themetoml for an example
 
-name = "Basics"
+name = "Basics Modified"
 license = "MIT"
-licenselink = "https://github.com/arjunkrishnababu96/basics/blob/master/LICENSE.md"
+licenselink = "https://github.com/nmarley/hugo-theme-basics/blob/master/LICENSE"
 description = "A minimal blog theme for those who like it simple."
-homepage = "https://github.com/arjunkrishnababu96/basics"
+homepage = "https://github.com/nmarley/hugo-theme-basics"
 tags = ["minimal", "blog", "personal", "simple", "basic", "clean"]
 features = []
 min_version = "0.38"
 
 [author]
-  name = "Arjun Krishna Babu"
-  homepage = "https://arjunkrishnababu96.github.io/"
+  name = "Nathan G Marley"
+  homepage = "https://marley.io/"
 
 # If porting an existing theme
 [original]
-  name = "Benny Mei"
-  homepage = "https://gitlab.com/meibenny/elephants"
-  repo = "https://github.com/meibenny/elephants"
+  name = "Arjun Krishna Babu"
+  homepage = "https://arjunkrishnababu96.github.io/"
