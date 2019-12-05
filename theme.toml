@@ -12,7 +12,6 @@ min_version = "0.38"
 
 [author]
   name = "Nathan G Marley"
-  homepage = "https://marley.io/"
 
 # If porting an existing theme
 [original]
