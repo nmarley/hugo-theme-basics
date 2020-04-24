@@ -14,5 +14,17 @@
     </li>
     {{ end }}
   </ul>
+
+  <ul class="posts_listing">
+    {{ range where .Pages.ByTitle.Reverse "Section" "daily" }}
+    <li>
+      <div class="row" id="daily">
+        <div class="col-sm date-time-title post">
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </div>
+      </div>
+    </li>
+    {{ end }}
+  </ul>
 </section>
 {{ end }}
